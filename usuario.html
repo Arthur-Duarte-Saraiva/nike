@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Usuário - Nike</title>
+</head>
+
+<body class="usuario">
+
+    <main>
+        <section class="formulario-selection">
+            <h2>Formulario De usuário da Nike</h2>
+
+            <form method="get" action="enviarparabancodedados.php" class="Cadastro">
+                <fieldset>
+
+                    <legend>Dados Pessoais</legend>
+
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="name" name="usuario" placeholder="Informe o seu nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Informe seu E-mail" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Coloque a senha" required>
+
+                    <label for="senha">Confirme a senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Veja se está correto a senha" required>
+
+                    <input type="number" name="idade" id="idade" min="1" max="31" placeholder="Dia" required>
+
+                    <select name="mes" id="mes" required>
+                        <option value="" disabled selected>Mês</option>
+                        <option value="janeiro">Janeiro</option>
+                        <option value="fevereiro">Fevereiro</option>
+                        <option value="marco">Março</option>
+                        <option value="abril">Abril</option>
+                        <option value="maio">Maio</option>
+                        <option value="junho">Junho</option>
+                        <option value="julho">Julho</option>
+                        <option value="agosto">Agosto</option>
+                        <option value="setembro">Setembro</option>
+                        <option value="outubro">Outubro</option>
+                        <option value="novembro">Novembro</option>
+                        <option value="dezembro">Dezembro</option>
+                    </select>
+
+                    <input type="number" id="idade" name="idade" min="1925" max="2012" placeholder="Ano" required>
+
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Criar Conta do Usuario</legend>
+
+                    <label for="nome">Nome de Usuario:</label>
+                    <input type="text" id="name" name="usuario" placeholder="Informe o nome de usuario" required>
+
+                    <label for="senha">Senha:</label>
+                    <input type="password" id="senha" name="senha" placeholder="Crie uma senha de Usuario" required>
+
+                    <label for="senha">Confirme a senha:</label>
+                    <input type="password" name="senha" id="senha" placeholder="Veja se está certo a senha" required>
+
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informe seus Gostos</legend>
+
+                    <label> <h3>Masculinas:</h3></label>
+                    <div class="gostos">
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">CAMISETAS (T-SHIRTS)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">CAMISAS DE MANGA LONGA</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">REGATAS (TANKS)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">MOLETONS (HOODIES)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">BLUSÕES / CREWNECK (SEM CAPUZ)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">JAQUETAS</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">AGASALHOS (TRACKSUITS)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">CAMISAS DE FUTEBOL</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">CAMISAS DE BASQUETE</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">POLOS</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">CALÇAS</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">SHORTS</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE TREINO (TRAINING)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE CORRIDA (RUNNING)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE FUTEBOL (FOOTBALL)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE BASQUETE (BASKETBALL)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE SKATE (NIKE SB)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS ACG (TRILHA/OUTDOOR)</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE GOLFE</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE TÊNIS</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE FRIO</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">BASE LAYERS / COMPRESSÃO</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">ROUPAS DE NATAÇÃO / PRAIA</label>
+
+                        <input type="checkbox" name="maculinas" id="gostos">
+                        <label for="maculinas">LOUNGEWEAR (CONFORTO)</label>
+                    </div>
+<br/>
+                        <label><h3>Femininas:</h3></label>
+                        <div class="gostos">
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">CAMISETAS (T-SHIRTS)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">REGATAS / TOPS SEM MANGA</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">CAMISAS DE MANGA LONGA</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">TOPS ESPORTIVOS (SPORTS BRAS)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">MOLETONS / HOODIES</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">BLUSÕES / CREWNECK</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">JAQUETAS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">CASACOS / AGASALHOS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">VESTIDOS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">MACACÕES / BODYSUITS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">CALÇAS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">SHORTS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">SAIAS E SKORTS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE TREINO (TRAINING)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE CORRIDA (RUNNING)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE YOGA</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE TÊNIS (COURT)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS ACG (TRILHA/OUTDOOR)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE GOLFE</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS CASUAIS / LIFESTYLE</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE FRIO / TÉRMICAS</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">PEÇAS DE COMPRESSÃO (NIKE PRO)</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">LOUNGEWEAR / CONFORTO</label>
+
+                            <input type="checkbox" name="femininas" id="gostos">
+                            <label for="femininas">ROUPAS DE BANHO</label>
+                        </div>
+                        
+                        <br/>
+
+                            <label><h3>Infantis:</h3></label>
+                            <div class="gostos">
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">CAMISETAS (T-SHIRTS)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">REGATAS / TANKS</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">CAMISAS DE MANGA LONGA</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">OLETONS (HOODIES)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">BLUSÕES / CREWNECK</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">JAQUETAS</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">AGASALHOS (CONJUNTOS)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE FUTEBOL</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE BASQUETE</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">CALÇAS</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">SHORTS</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">VESTIDOS & SAÍAS (GIRLS)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE YOGA / FLEX</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE FRIO</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ACG (AVENTURA / TRILHA INFANTIL)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">NIKE SB (SKATE INFANTIL)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE CORRIDA (RUNNING KIDS)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE TREINO (TRAINING KIDS)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE BEBÊ (BABY / TODDLER)</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">ROUPAS DE BANHO</label>
+
+                                <input type="checkbox" name="infantis" id="gostos">
+                                <label for="infantis">LOUNGEWEAR / CONFORTO</label>
+                            </div>
+
+                            <br/>
+
+                                <label><h3>Unissex:</h3></label>
+                                <div class="gostos">
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">CAMISETAS (T-SHIRTS)</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">CAMISAS DE MANGA LONGA</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">REGATAS / TANKS</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">MOLETONS / HOODIES</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">BLUSÕES (CREWNECK)</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">JAQUETAS</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">AGASALHOS (TRACKSUITS / CONJUNTOS)</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">CALÇAS</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">SHORTS</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">MACACÕES / BODY / ONE-PIECE</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS DE TREINO</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS DE CORRIDA</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS DE TÊNIS</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS DE SKATE (NIKE SB)</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS ACG (OUTDOOR / TRILHA)</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS DE FRIO / TÉRMICAS</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">ROUPAS DE BANHO</label>
+
+                                    <input type="checkbox" name="unissex" id="gostos">
+                                    <label for="unissex">LOUNGEWEAR / CONFORTO</label>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Informações Adicionais</legend>
+
+                    </div>
+
+                    <label for="observacoes">Observações:</label>
+                    <textarea name="observacoes" id="observacoes" rows="4"
+                        placeholder="Conte-nos mais sobre seus objetivos..."></textarea>
+                </fieldset>
+                
+                <div class="botoes">
+                    <div class="limpar">
+                        <button type="reset">Limpar Formulario</button>
+                    </div>
+
+                    <div class="envio">
+                        <button type="submit">Enviar inscrição</button>
+                    </div>
+                </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Site sobre as informações da Nike - Desenvolvido por Arthur</p>
+    </footer>
+
+</body>
+
+</html>

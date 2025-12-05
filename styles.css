@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.usuario{
+    font-family: Arial, sans-serif;
+    line-height: 1.6rem;
+    color: #ffffff;
+    background-image: url(img/nk.jpg);
+}
+
+.index{
+    font-family: Arial, sans-serif;
+    line-height: 1.6rem;
+    color: #ffffff;
+    background-image: url(img/nike.jpg);
+    background-size: cover;
+}
+
+main{
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 0 2rem;
+}
+
+.formulario-section{
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(9, 5, 255, 0.1);
+}
+
+.formulario-selection h2{
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+fieldset{
+    border: 2px double #9900ff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+legend{
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0 0.5rem;
+}
+
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #fff7f7;
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    transition: border-color 0.9s;
+}
+
+input:focus, select:focus, textarea:focus{
+    outline: none;
+    border-color: #0000ff;
+}
+
+.gostos{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.gostos input{
+    width: auto;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+}
+
+.gostos label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.botoes{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.limpar, .envio {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+button{
+    background: linear-gradient(135deg, #0000ff 0%, #8000ff 100%);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: transform 0.2s;
+}
+
+button:hover{
+    transform: translateY(-2px);
+}
+
+button[type="resert"] {
+    background: #0004ff;
+}
+
+footer{
+    background: #181818;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
+
+select {
+    color: gray;
+}
+
+select:valid {
+    color: black;
+}
+
+.comeco img , .logo img{
+    width: 300px;
+}
